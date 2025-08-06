@@ -39,7 +39,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Kugo.git
+git clone https://github.com/timappledotcom/Kugo.git
 cd Kugo
 
 # Run the automatic installer
@@ -147,7 +147,7 @@ This project is open source - see the [LICENSE](LICENSE) file for details.
 
 ## 🐛 Support
 
-- **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/yourusername/Kugo/issues)
+- **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/timappledotcom/Kugo/issues)
 - **Documentation**: Check the [User Guide](USER_GUIDE.md) for detailed help
 - **Community**: Join discussions in the project repository
 
