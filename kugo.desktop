@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Kugo
+Comment=Hugo front-end for KDE/Plasma
+Exec=/home/tim/Projects/Main/Kugo/run_kugo.sh
+Icon=/home/tim/Projects/Main/Kugo/kugo/resources/kugo.jpeg
+Categories=Development;TextEditor;
+Keywords=hugo;blog;markdown;cms;
+StartupNotify=true
+Terminal=false
