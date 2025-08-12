@@ -22,4 +22,8 @@ def get_icon(name: str) -> QIcon:
 
 def get_app_icon() -> QIcon:
     """Get the main application icon"""
+    # Try PNG first, fallback to JPEG
+    png_icon = get_icon("kugo.png")
+    if not png_icon.isNull():
+        return png_icon
     return get_icon("kugo.jpeg")

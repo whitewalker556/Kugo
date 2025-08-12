@@ -8,6 +8,7 @@ import os
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import Qt
 from kugo.main_window import MainWindow
+from kugo.resources import get_app_icon
 
 
 def main():
@@ -18,11 +19,13 @@ def main():
     
     app = QApplication(sys.argv)
     app.setApplicationName("Kugo")
+    app.setApplicationDisplayName("Kugo")
     app.setApplicationVersion("1.0.0")
     app.setOrganizationName("Kugo")
+    app.setDesktopFileName("kugo")
     
-    # Set application icon (if available)
-    # app.setWindowIcon(QIcon(":/icons/kugo.png"))
+    # Set application icon
+    app.setWindowIcon(get_app_icon())
     
     window = MainWindow()
     window.show()

@@ -44,6 +44,9 @@ class MainWindow(QMainWindow):
         # Set window icon
         self.setWindowIcon(get_app_icon())
         
+        # Set WM_CLASS for proper GNOME dock integration
+        self.setProperty("applicationName", "Kugo")
+        
         # Create central widget
         central_widget = QWidget()
         self.setCentralWidget(central_widget)

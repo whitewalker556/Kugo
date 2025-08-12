@@ -1,10 +1,16 @@
 [Desktop Entry]
 Type=Application
 Name=Kugo
-Comment=Hugo front-end for KDE/Plasma
+GenericName=Hugo Site Manager
+Comment=Hugo front-end for managing static sites
 Exec=/home/tim/Projects/Main/Kugo/run_kugo.sh
-Icon=/home/tim/Projects/Main/Kugo/kugo/resources/kugo.jpeg
-Categories=Development;TextEditor;
+Icon=kugo
+Categories=Development;TextEditor;Publishing;
+Keywords=hugo;blog;markdown;cms;static;site;
+StartupNotify=true
+StartupWMClass=Kugo
+Terminal=false
+MimeType=text/markdown;text/plain;
 Keywords=hugo;blog;markdown;cms;
 StartupNotify=true
 Terminal=false
